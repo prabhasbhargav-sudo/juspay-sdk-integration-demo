@@ -22,7 +22,8 @@ $request->setBody('{\n
     "return_url": "https://shop.merchant.com",\n    
     "description": "Complete your payment",\n    
     "first_name": "John",\n    
-    "last_name": "wick"\n
+    "last_name": "wick"\n,
+    "currency": "USD"\n
 }');
 try {
   $response = $request->send();
