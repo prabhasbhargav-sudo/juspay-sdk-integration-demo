@@ -15,7 +15,8 @@ $body->append('{
     "return_url": "https://shop.merchant.com",
     "description": "Complete your payment",
     "first_name": "John",
-    "last_name": "wick"
+    "last_name": "wick",
+    "currency": "USD"
 }');
 $request->setBody($body);
 $request->setOptions(array());
