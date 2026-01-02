@@ -20,7 +20,7 @@
           "action": "paymentPage",
           "customerId": "testing-customer-one",
           "returnUrl": "https://shop.merchant.com",
-          "currency": "INR",
+          "currency": "USD",
           "firstName": "John",
           "customerPhone": "9876543210",
           "customerEmail": "test@mail.com",
