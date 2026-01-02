@@ -18,7 +18,8 @@ var requestPayload = JSON.stringify({
   "description": "Complete your payment",
   "theme": "dark",
   "first_name": "John",
-  "last_name": "wick"
+  "last_name": "wick",
+  "currency": "USD"
 });
 
 var requestOptions = {
