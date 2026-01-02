@@ -20,6 +20,7 @@ public JSONObject createSession() {
     payload.put("offer_code", "testingCode");
     payload.put("first_name", "john");
     payload.put("last_name", "wick");
+    payload.put("currency", "USD");
     payload.put("description", "Order Description");
 
     OkHttpClient okHttpClient = new OkHttpClient();
@@ -44,7 +45,7 @@ public JSONObject createSession() {
     return responseJSON;
 
   } catch (Exception e) {
-    e.printStacktrace();
+    e.printStackTrace();
   }
 
 }
